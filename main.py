@@ -17,15 +17,6 @@ app.add_middleware(
 
 tasks = []
 
-class TaskCreate(BaseModel):
-    title: str
-
-class Task(BaseModel):
-    id: int
-    title: str
-    completed: bool
-    createdAt: str
-
 
 @app.get("/tasks")
 def get_tasks():
