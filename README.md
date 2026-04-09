@@ -19,20 +19,29 @@ A simple full-stack Task Manager application built using **React** and **FastAPI
 
 ## Setup Instructions
 
-### Backend
+### Backend Setup
+
+Install Python dependencies:
 
 ```powershell
-cd backend
+pip install -r requirements.txt
+```
+
+Run the backend server:
+
+```powershell
 uvicorn main:app --reload
 ```
 
-Runs on:
+Backend runs on:
 
 ```text
 http://127.0.0.1:8000
 ```
 
-### Frontend
+---
+
+### Frontend Setup
 
 ```powershell
 cd frontend
@@ -40,7 +49,7 @@ npm install
 npm run dev
 ```
 
-Runs on:
+Frontend runs on:
 
 ```text
 http://localhost:5173
